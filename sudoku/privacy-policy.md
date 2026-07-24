@@ -39,8 +39,7 @@ data stays on your device.
 
 - **Change or withdraw ad-personalization consent** at any time from
   **Settings → Privacy options** inside the App.
-- **Reset all local data** by clearing the App's storage in Android Settings, or by
-  uninstalling the App.
+- **Reset all local data** by clearing the App's storage in Android Settings.
 
 ## Children
 
