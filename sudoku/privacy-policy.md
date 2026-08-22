@@ -1,6 +1,6 @@
 # Privacy Policy — Sudoku
 
-_Last updated: 28 July 2026_
+_Last updated: 22 August 2026_
 
 This policy covers the **Sudoku** app (package `com.sparklebit.sudoku`, "the App"),
 published by **Sparkle Bit Games** ("we", "us").
@@ -23,8 +23,20 @@ consent, that collection is off until you allow it.
 Puzzle progress, notes/pencil marks, best times, daily-challenge streak, coin balance,
 and settings (including your theme choice).
 
-Stored locally via Android DataStore/SharedPreferences. **It is never transmitted to us
-or to anyone else.** Uninstalling the App deletes it.
+Stored locally via Android DataStore/SharedPreferences. **We never receive it** — it is not
+sent to us, and we operate no server it could be sent to.
+
+One thing to be clear about: if **Android Backup** is switched on for your device (Android
+**Settings → Google → Backup**), Android itself copies some of this into **your own Google
+account backup** — your records, meaning the daily-challenge streak, last-completed date,
+best times, and your in-app settings. That copy belongs to your Google account rather than
+to us, and we cannot read it. It does mean that **uninstalling the App does not necessarily
+erase those records**: reinstalling later, on the same phone or a new one, can restore them.
+When you set up a new phone, Android's device-to-device transfer additionally carries your
+in-progress puzzle and coin balance across.
+
+If you want that copy gone too, turn off Android Backup for the App, or delete the App's
+backup under **Settings → Google → Backup**.
 
 - **Purpose:** to let you resume a puzzle and keep your records.
 - **Legal basis (GDPR):** performance of the service you requested (Art. 6(1)(b)).
@@ -74,10 +86,27 @@ service notice. It is not used for advertising or profiling.
 - **Legal basis (GDPR):** **legitimate interest** in operating and securing the App
   (Art. 6(1)(f)).
 
-### 1.6 What we do NOT collect
-No account, name, email address, phone number, contacts, photos, files, precise
-location, or any other directly identifying information. We run **no server of our own**
-— beyond the Google services named above, there is nowhere else your data goes.
+### 1.6 Feedback you choose to send us
+Settings has a **Send feedback** button. It is entirely optional — nothing is sent unless
+you tap it, write a message, and press send in your own email app.
+
+Tapping it opens **your** email app with a message addressed to us, pre-filled with a short
+diagnostic block: the **App version**, your device's **country** and **language** settings,
+and your **Android version and device model**. You can edit or delete any of that before
+sending. Because the message comes from your own mailbox, we also receive **your email
+address** and whatever you write.
+
+- **Purpose:** replying to you, and reproducing the problem you are reporting.
+- **Legal basis (GDPR):** **consent** (Art. 6(1)(a)) — you choose to write to us, and you
+  can delete the diagnostic block, or simply not send the email.
+- **Where it goes:** our support mailbox, hosted by **Google (Gmail)**. We do not forward it
+  anywhere else, and we never use it for advertising or profiling.
+
+### 1.7 What we do NOT collect
+Apart from a feedback email you choose to send us (§1.6), we collect no account, name,
+email address, phone number, contacts, photos, files, precise location, or any other
+directly identifying information. We run **no server of our own** — beyond that support
+mailbox and the Google services named above, there is nowhere else your data goes.
 
 ---
 
@@ -85,7 +114,8 @@ location, or any other directly identifying information. We run **no server of o
 
 The only third-party recipient is **Google** (Google Ireland Limited and Google LLC),
 acting through the AdMob, Firebase Analytics, Crashlytics and Remote Config services,
-and — for advertising — Google's advertising partners.
+— for advertising — Google's advertising partners, and, if you email us, as the provider
+hosting our support mailbox (Gmail).
 
 Google processes this data on servers **outside your country, including in the United
 States**. For transfers out of the EEA/UK, Google relies on the European Commission's
@@ -100,8 +130,9 @@ We do **not** sell your personal information for money.
 
 | Data | Retention |
 |---|---|
-| Gameplay data on your device | Until you clear the App's storage or uninstall it. We never receive it. |
+| Gameplay data on your device | Until you clear the App's storage or uninstall it. We never receive it. If Android Backup is on, a copy of your records stays in your own Google account backup until you delete it there — see §1.1. |
 | Advertising / analytics / crash data held by Google | Per Google's own retention schedules — see [Google's Privacy Policy](https://policies.google.com/privacy) and [Google's data-retention page](https://policies.google.com/technologies/retention). We hold no copy and cannot extend it. |
+| A feedback email you chose to send us (§1.6) | Kept only as long as needed to deal with your message, then deleted. Ask us at any time and we will delete it sooner. |
 
 ---
 
@@ -114,7 +145,9 @@ We do **not** sell your personal information for money.
   consent. Outside those regions this entry point may not be shown, because no consent
   form is served to you.
 - **Reset or delete everything the App has stored** at any time: Android
-  **Settings → Apps → Sudoku → Storage → Clear storage**, or simply uninstall.
+  **Settings → Apps → Sudoku → Storage → Clear storage**, or simply uninstall. If Android
+  Backup is switched on, delete the App's backup under **Settings → Google → Backup** as
+  well — otherwise your records can come back the next time you install (§1.1).
 - **Reset or delete your advertising ID** at any time: Android
   **Settings → Google → Ads**, where you can also turn off ad personalisation
   device-wide.
@@ -124,10 +157,11 @@ You have the right to **access** your data, to **rectify** it, to **erase** it, 
 **restrict** or **object to** processing, to **data portability**, and to **withdraw
 consent** at any time (withdrawal does not affect processing already carried out).
 
-Because we operate no server and hold no account, **we hold no personal data about you
-to retrieve, correct, export or delete** — requests about the advertising, analytics and
-crash data described above are directed to **Google**, which acts as controller or
-processor for it. Write to us and we will point you to the right Google mechanism.
+Because we operate no server and hold no account, the only personal data we ever hold is a
+**feedback email you chose to send us** (§1.6) — write to us and we will retrieve, correct,
+export or delete it. Apart from that, **we hold no personal data about you**: requests about
+the advertising, analytics and crash data described above are directed to **Google**, which
+acts as controller or processor for it, and we will point you to the right Google mechanism.
 
 You also have the right to **lodge a complaint with your national data protection
 supervisory authority**.
