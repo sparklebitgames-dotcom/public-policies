@@ -1,6 +1,6 @@
 # Privacy Policy — Sudoku
 
-_Last updated: 22 August 2026_
+_Last updated: 27 August 2026_
 
 This policy covers the **Sudoku** app (package `com.sparklebit.sudoku`, "the App"),
 published by **Sparkle Bit Games** ("we", "us").
@@ -185,6 +185,14 @@ grievance** with us using the contact below. We will respond within the period r
 by law. Withdrawal is available in-app via **Settings → Privacy options** and, for
 device-level identifiers, via **Settings → Google → Ads**.
 
+The same practical limits described in §4.2 apply to an erasure request: the only
+personal data we hold, and can therefore erase ourselves, is a **feedback email you chose
+to send us** (§1.6). Gameplay data never reaches us and is erased on your own device
+(§4.1). The advertising, analytics and crash data is **pseudonymous** — tied to
+resettable device identifiers rather than to you — so it cannot be looked up from your
+name or email address by us or by Google; the effective control there is resetting or
+deleting the advertising ID under **Settings → Google → Ads** (§6).
+
 ---
 
 ## 5. Security
@@ -206,8 +214,26 @@ knowingly collect personal data from children, and we do not target ads at them.
 
 Different laws set different ages: **under 13** in the United States (COPPA) and
 generally **under 16** in the EEA, while **India's DPDP Act treats anyone under 18 as a
-child** and restricts tracking and targeted advertising to them. If you believe a child
-has provided personal data through the App, contact us and we will delete it.
+child** and restricts tracking and targeted advertising to them.
+
+If you believe a child has provided personal data through the App, contact us at the
+address in §7. Because we run no server and hold no accounts, here is precisely what we
+can do:
+
+- **An email a child sent us** (§1.6) is the one piece of personal data we hold
+  ourselves. We will delete it on request and confirm that we have.
+- **Gameplay data** never reaches us at all. It is erased on the device itself via
+  **Settings → Apps → Sudoku → Storage → Clear storage**, and — if Android Backup is
+  switched on — by also deleting the App's backup under **Settings → Google → Backup**
+  (§1.1, §4.1).
+- **Advertising, analytics and crash data** is **pseudonymous**: it is tied to resettable
+  device identifiers, never to a name, an email address or an account. This means nobody —
+  not us, and not Google — can look up "this particular child's" records from a name or an
+  email, and there is no request form that would change that. Google says the same of its
+  own systems. What *does* work, immediately and entirely under your control, is
+  **resetting or deleting the device's advertising ID** and **turning off ad
+  personalisation**, both under **Settings → Google → Ads**. Uninstalling the App ends all
+  further collection.
 
 ---
 
